@@ -1,0 +1,100 @@
+/* HOME SECTION */
+nav a:hover{
+     
+     border-width: 100%;
+
+}
+#rotate{
+  transition: 1s;
+}
+#rotate:hover{
+  transform: rotate(180deg);
+}
+
+#home{
+  height: 350px;
+  padding: 3px 26px;
+  
+}
+.h-primary1{
+  position: absolute;
+  top: 47%;
+}
+.home-btn{
+  position: absolute;
+  top: 77%;
+}
+
+
+#home::before{
+   height: 555px;
+}
+#home p{
+    font-size: 0.9rem;
+    position: absolute;
+    top: 60%;
+    left: 10px;
+   
+}
+.home-p2{
+  margin-top: 45px;
+}
+.home-p3{
+  margin-top: 65px;
+}
+
+/* SERVICES SECTION  */
+
+#services{
+    flex-direction: column;
+}
+
+#services .box img{
+width: 350;
+  height: 300px; 
+  
+}
+#services .box img:hover{
+  width: 400px;
+  height: 400px;
+}
+
+#services2{
+  flex-direction: column;
+}
+
+/* LOG SECTION */
+
+.log-section{
+    flex-direction: column;
+   text-align: center;
+  
+   width: 100%;
+   height: 100%;
+   opacity: 0.9;
+   z-index: -1;
+}
+
+
+
+.btton{
+   margin-right: 18%; 
+}
+form{
+  margin-right: 20px;
+}
+.log-input{
+    width: 40%;   
+    border-radius: 5px;
+}
+
+.log-info{
+   border-radius: 5px; 
+   width: 40%; 
+    
+}
+label{
+ margin-right: 25%;
+}
+
+
